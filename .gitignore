@@ -1,32 +1,22 @@
-# Prerequisites
-*.d
+#.vs folders
+**/.vs/*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+#编译结果，输出文件
+**/Debug/*
+**/Release/*
+**/bin/*
+**/obj/*
+**/packages/*
 
-# Fortran module files
-*.mod
-*.smod
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+#保留Qt项目依赖文件
+!**/Debug/moc/
+!**/Release/moc/
+!**/Debug/qmake/
+!**/Release/qmake/
+!**/Debug/rcc/
+!**/Release/rcc/
+!**/Debug/uic/
+!**/Release/uic/
